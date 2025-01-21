@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 const CLIENT_ID = 'a067cc8ebdf04430953941abfcb573b4'; // Spotify Developer Dashboard'dan alın
-const REDIRECT_URI = 'https://spotfiy-app.vercel.app/'; // Spotify Dashboard'da tanımlı URI
+const REDIRECT_URI = 'https://spotfiy-app.vercel.app/';
 const AUTH_URL = 'https://accounts.spotify.com/authorize';
 const SCOPES = 'user-read-currently-playing';
 
